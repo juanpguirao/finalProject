@@ -1,0 +1,37 @@
+nav{
+
+    .logo{
+        margin-right: 50px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+        li {
+            display: inline;
+            font-size: larger;
+            margin: 4px;
+        }
+
+            .boton{
+                width: 150px;
+                text-align: center;
+                font-size: large;
+                border-radius: 25px;
+                background-color:$color1;
+                color: $color3;
+                font-family: $font1;
+                font-weight: bolder;
+                text-decoration: none;
+                background-image: $color2;         
+
+            }
+            .boton:hover, a:focus {
+                background-size: 100% 6px;
+                transition: background-size 2s;
+                background-color: $hover;
+            }
+
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&family=Satisfy&display=swap');
+
+
+
+/* VARIABLES */
+$font1:'Indie Flower', cursive;
+$font2:'Pacifico', cursive;
+$font3:'Satisfy', cursive;
+
+$color1:rgb(69, 69, 243);
+$color2:rgba(255, 255, 255, 0.5);
+$color3:rgb(39, 21, 7);
+$color4: rgb(130, 189, 207);
+$hover:rgb(0, 0, 155);
+
+
+@import "_header";
+@import "_footer";
+@import "_login";
+@import "_register";
+@import "_contact";
+

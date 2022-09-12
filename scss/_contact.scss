@@ -1,0 +1,50 @@
+.contacto{
+
+    .flex__container {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: $color4;
+        padding: 15px;
+        border-radius: 15px;
+    }
+    .mensaje {
+        text-align: center;
+        padding: 8px;
+        font-size: 40px;
+        font-family: $font2;
+        background-color:$color2;
+        color: $color1;
+    }
+    .form {
+        width: 100%;
+        height: 400px;
+        flex: 1;
+    }
+    .form__input {
+        width: 70%;
+        margin: 7px;
+        padding: 7px;
+        border: 2px solid $color2;
+        background: transparent;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: medium;
+    }
+
+    #button {
+        width: 160px;
+        justify-items: center;
+    }
+
+    .form__input:focus {
+        background-color:$color2;
+        outline: none;
+    }
+
+    textarea {
+        min-height: 100px;
+        resize: none;
+    }
+
+}

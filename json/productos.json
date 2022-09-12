@@ -1,0 +1,24 @@
+[
+    {
+        "id":1,
+        "nombre": "Pack de 8 clases",
+        "descripcion": "Pack de 8 clases para usar cuando vos quieras, vencimiento 1 mes",
+        "vencimiento": "Vencimiento 1 mes",
+        "cantidad": 8,
+        "precio": 2500
+    },{
+        "id":2,
+        "nombre": "Pack de 12 clases",
+        "descripcion": "Pack de 12 clases para usar cuando vos quieras, vencimiento 1 mes",
+        "vencimiento": "Vencimiento 1 mes",
+        "cantidad": 12,
+        "precio": 2800
+    },{
+        "id":3,
+        "nombre": "Pack de 15 clases",
+        "descripcion": "Pack de 15 clases para usar cuando vos quieras, vencimiento 1 mes",
+        "vencimiento": "Vencimiento 1 mes",
+        "cantidad": 15,
+        "precio": 3000
+    }]
+    
